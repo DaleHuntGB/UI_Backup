@@ -1,0 +1,5 @@
+## Interface: 100207 110000
+## Title: EncounterJournal Spell Info
+## Author: Buds
+## Notes: Add on Encounter Journal tooltips for spells'ids, and an icon for Private Auras
+core.lua

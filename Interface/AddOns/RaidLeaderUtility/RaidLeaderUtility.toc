@@ -1,0 +1,10 @@
+## Title: |cFF8080FFRaid Leader Utility|r
+## Interface: 100207
+## Author: Unhalted
+## Version: 1.0
+## IconAtlas: questlog-questtypeicon-raid
+## X-Category: Interface
+## Notes: "Raid Leading Made Simple!"
+
+# RLU.lua
+RaidLeaderUtility.lua
