@@ -1,0 +1,62 @@
+VER 3 0100000000000006 "BoF" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Blessing of Freedom
+END
+VER 3 0100000000000002 "BoP" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Blessing of Protection
+END
+VER 3 0100000000000001 "BoS" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@target] Blessing of Sacrifice
+END
+VER 3 010000000000000C "CT" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Cleanse Toxins
+END
+VER 3 0100000000000005 "DS" "134400"
+#showtooltip
+/stopcasting
+/stopcasting
+/cast Divine Shield
+END
+VER 3 0100000000000009 "FoL" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Flash of Light
+END
+VER 3 010000000000000D "FR/ES" "135878"
+#showtooltip
+/cast [@cursor, known:343721] Final Reckoning; [known:343527] Execution Sentence
+END
+VER 3 0100000000000007 "HoJ" "134400"
+#showtooltip
+/cast [@mouseover, harm, nodead][@target] Hammer of Justice
+END
+VER 3 010000000000000F "HoR" "134400"
+#showtooltip
+/cast [@mouseover, exists][@target] Hand of Reckoning
+END
+VER 3 010000000000000A "Intercession" "134400"
+#showtooltip
+/cast [@mouseover, help, dead][@target] Intercession
+END
+VER 3 0100000000000003 "LoH" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Lay on Hands
+END
+VER 3 0100000000000008 "Rebuke" "134400"
+#showtooltip
+/cast [@focus, exists][@mouseover, exists][@target] Rebuke
+END
+VER 3 010000000000000B "Redemption" "134400"
+#showtooltip
+/cast [@mouseover, help, dead][@target] Redemption
+END
+VER 3 010000000000000E "TE" "134400"
+#showtooltip
+/cast [@mouseover, harm, nodead][@target] Turn Evil
+END
+VER 3 0100000000000004 "WoG" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Word of Glory
+END

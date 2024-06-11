@@ -1,0 +1,36 @@
+VER 3 0100000000000002 "EM" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Enveloping Mist
+END
+VER 3 0100000000000008 "Paralysis" "134400"
+#showtooltip
+/cast [@mouseover, harm, nodead][@target] Paralysis
+END
+VER 3 0100000000000006 "Provoke" "134400"
+#showtooltip
+/cast [@mouseover, harm, nodead][@target] Provoke
+END
+VER 3 0100000000000004 "Resuscitate" "134400"
+#showtooltip
+/cast [@mouseover, help, dead][@target] Resuscitate
+END
+VER 3 0100000000000003 "RM" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Renewing Mist
+END
+VER 3 0100000000000009 "SHS" "134400"
+#showtooltip
+/cast [@focus, exists][@mouseover, exists][@target] Spear Hand Strike
+END
+VER 3 0100000000000001 "SM" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Soothing Mist
+END
+VER 3 0100000000000005 "TL" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Tiger's Lust
+END
+VER 3 0100000000000007 "Vivify" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Vivify
+END

@@ -1,0 +1,79 @@
+VER 3 0100000000000013 "AF" "134400"
+#showtooltip
+/cast [@player] Angelic Feather
+END
+VER 3 010000000000001C "Dispersion" "134400"
+#showtooltip
+/stopcasting
+/stopcasting
+/cast Dispersion
+END
+VER 3 0100000000000001 "DP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, harm, nodead][@target] Dispel Magic
+END
+VER 3 0100000000000004 "DP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting 
+/cast Desperate Prayer
+END
+VER 3 0100000000000002 "Fade" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting 
+/cast Fade
+END
+VER 3 0100000000000014 "FH" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Flash Heal
+END
+VER 3 0100000000000010 "Levitate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Levitate
+END
+VER 3 010000000000000B "LoF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][@target] Leap of Faith
+END
+VER 3 0100000000000006 "MD" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Mass Dispel
+END
+VER 3 010000000000000C "MS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Mind Soothe
+END
+VER 3 010000000000001B "PD" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Purify Disease
+END
+VER 3 010000000000001E "PI" "134400"
+#showtooltip Power Infusion
+/cast [@Greenh] Power Infusion
+/cast [@Zapaliilo] Power Infusion
+/cast [@Tsiralock] Power Infusion
+/cast [@player] Power Infusion
+END
+VER 3 0100000000000009 "PWS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][@player] Power Word: Shield
+END
+VER 3 0100000000000018 "Resurrection" "134400"
+#showtooltip
+/cast [@mouseover, help, dead][@target] Resurrection
+END
+VER 3 0100000000000019 "SC" "134400"
+#showtooltip
+/cast [@cursor] Shadow Crash
+END
+VER 3 0100000000000008 "Silence" "458230"
+#showtooltip
+/cast [@focus, exists][@mouseover, exists][@target] Silence
+END
+VER 3 0100000000000011 "SW: P" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, harm, nodead][@target] Shadow Word: Pain
+END
+VER 3 010000000000001D "VT" "134400"
+#showtooltip
+/cast [@mouseover, harm, nodead][] Vampiric Touch
+END

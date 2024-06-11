@@ -1,0 +1,50 @@
+VER 3 0000000000000006 "#PM" "413586"
+/run C_ChatInfo.SendAddonMessage("CAUSESE_SF", UnitGUID("player"), "RAID")
+/run WeakAuras.ScanEvents("LIQUID_PRIVATE_AURA_MACRO", true)
+/run C_ChatInfo.SendAddonMessage("PA_MACRO", UnitGUID("player"), "RAID")
+END
+VER 3 0000000000000003 ". Cancel Aura" "3565717"
+/cancelaura Blessing of Protection
+/cancelaura Divine Shield
+/cancelaura Slowfall
+/cancelaura Levitate
+/cancelaura Goblin Glider
+/cancelaura Dispersion
+/stopcasting
+/leavevehicle
+END
+VER 3 0000000000000004 ". Focus" "5260436"
+/focus [@mouseover, exists][@target]
+END
+VER 3 0000000000000001 ". Trinket #1" "134400"
+#showtooltip
+/use 13
+END
+VER 3 0000000000000002 ". Trinket #2" "134400"
+#showtooltip
+/use 14
+END
+VER 3 0000000000000007 "Augment" "134400"
+#showtooltip
+/use Dreambound Augment Rune
+/use Essence of Yu'lon
+END
+VER 3 000000000000000E "AutoPI" "134400"
+#showtooltip Power Infusion
+/click AutoPI LeftButton 1
+END
+VER 3 0000000000000005 "DM" "134400"
+#showtooltip
+/cast [@mouseover, harm, nodead][@target] Dominate Mind
+END
+VER 3 000000000000000B "Hide Action Bars" "135340"
+/run local b,E={1,2,3,4},unpack(ElvUI)for _,n in pairs(b)do local s=E.db.actionbar["bar"..n].visibility;E.db.actionbar["bar"..n].visibility=(s=="hide" and "show" or "hide")E.ActionBars:PositionAndSizeBar("bar"..n)end
+END
+VER 3 000000000000000C "Leave Party" "135986"
+/script C_PartyInfo.LeaveParty()
+END
+VER 3 0000000000000008 "SP: SF" "134400"
+#showtooltip
+/cast Shadowfiend
+/use Berserking
+END

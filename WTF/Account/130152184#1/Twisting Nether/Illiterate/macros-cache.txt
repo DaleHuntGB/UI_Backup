@@ -1,0 +1,32 @@
+VER 3 0100000000000003 "HLeap" "134400"
+#showtooltip
+/cast [@cursor] Heroic Leap
+END
+VER 3 0100000000000007 "OS/OF" "134400"
+#showtooltip
+/cast [known:315720] Onslaught; [known:385059] Odyn's Fury
+END
+VER 3 0100000000000001 "Pummel" "134400"
+#showtooltip
+/cast [@focus, exists][@mouseover, exists][@target] Pummel
+END
+VER 3 0100000000000005 "Ravager" "134400"
+#showtooltip
+/cast [@player] Ravager
+END
+VER 3 0100000000000004 "SBolt" "134400"
+#showtooltip
+/cast [@mouseover, exists][@target] Storm Bolt
+END
+VER 3 0100000000000006 "SoB" "134400"
+#showtootlip
+/cast [@cursor] Spear of Bastion
+END
+VER 3 0100000000000002 "Taunt" "134400"
+#showtooltip
+/cast [@mouseover, exists][@target] Taunt
+END
+VER 3 0100000000000008 "TR/SoB" "134400"
+#showtooltip
+/cast [known:384318] Thunderous Roar, [known:376079, @player] Spear of Bastion
+END
